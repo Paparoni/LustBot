@@ -3,7 +3,7 @@ const Lust = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] }
 const PREFIX = '+';
 const editJsonFile = require("edit-json-file");
 
-Lust.login('Njg5OTE1NDQ3ODg5NjI1MTI4.XnJ1qw.19MRNSXohq4E6-b6N0fYl86oKw8')
+Lust.login('')
 Lust.on('ready', () => {
     Lust.user.setActivity('･𝐿𝑢𝑠𝑡･', { type: 'WATCHING' })
         .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
